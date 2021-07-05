@@ -1,0 +1,37 @@
+body{
+    font-family: 'Mitr', sans-serif;
+  margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+h4{
+    color: mediumseagreen;
+}
+.colorOrange{
+    color: crimson;
+}
+section{
+    display: flex;
+    
+}
+.widthHalf{
+    width: 50%;
+    margin: 0px 10px 0px 45px;
+}
+.widthHalf img{
+    width: 80%;
+    margin: 35px 0px 0px 60px;
+}
+.Lbutton{
+    color: white;
+    text-decoration:white;
+    background-color: green ;
+    border: olivedrab;
+    border-radius: 5px;
+    padding: 0px 15px 0px 15px;
+}
+.bannerBg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
