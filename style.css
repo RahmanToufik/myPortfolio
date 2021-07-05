@@ -11,7 +11,7 @@ h4{
 .colorOrange{
     color: crimson;
 }
-section{
+.sectionFlex{
     display: flex;
     margin-bottom: 120px;
     
@@ -56,4 +56,38 @@ section{
     border-radius: 5px;
     padding: 0px 15px 0px 15px;
     margin-left: 70px;
+}
+.flex{
+    display: flex;
+   
+}
+.width-Half{
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    margin-right: 5%;
+    padding-left: 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+.expSectn{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-first{
+    border-left: solid 5px;
+    border-radius: 10px;
+    border-image: linear-gradient( red, yellow);
+    border-image-slice: 1;
+}
+#border-Secnd{
+    border-left: solid 5px;
+    border-radius: 10px;
+    border-image: linear-gradient( blue,red);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center ;
 }
